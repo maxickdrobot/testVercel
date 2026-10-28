@@ -4,7 +4,7 @@ const app = express();
 const PORT = 3000 || process.env.PORT;
 
 app.get('/', (req, res) => {
-  res.send("It's test Vercel's server. Test auto deploy");
+  res.send("It's test Vercel's server.");
 });
 
 app.listen(PORT, () => {
